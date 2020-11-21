@@ -190,12 +190,13 @@ logo {
 
 .feynman__title {
   width: 648px;
-  text-align:center;
+  text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   margin: auto;
-  z-index: 1;
+  position: relative;
+  z-index: 2;
 }
 
 .feynman__subtitle {
@@ -204,7 +205,8 @@ logo {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  z-index: 1;
+  position: relative;
+  z-index: 2;
 }
 
 .feynman__link {
@@ -217,13 +219,12 @@ logo {
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
-  z-index: 1;
+  z-index: 2;
 }
 
 .feynman__image {
   height: 637px;
   width: 867px;
-  display: flex;
   position: absolute;
   left: 0;
   bottom: 0;
